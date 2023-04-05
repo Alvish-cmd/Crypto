@@ -107,6 +107,7 @@ const Datatable = () => {
         setCPrice(data);
     }; 
         useEffect(() => {
+          Price();
         let interval = setInterval(() => {
         Price();
         }, 13000);
