@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./style/dark.scss";
 import { useContext } from "react";
 import { DarkModeContext } from "./context/darkModeContext.js";
-import Chart from "./pages/chart/List.tsx"
+import Chart from "./pages/chart/Market.tsx"
 
 function App() {
   const { darkMode } = useContext(DarkModeContext);
